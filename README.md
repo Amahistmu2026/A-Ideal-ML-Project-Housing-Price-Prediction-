@@ -14,7 +14,7 @@ This project implements an end-to-end machine learning solution for predicting h
 8. [Contributing](#contributing)
 9. [License](#license)
 
- Project Structure
+**Project Structure**
 california-housing-prediction/
 │
 ├── data/
@@ -34,7 +34,7 @@ california-housing-prediction/
 └── .gitignore
 ```
 
-## Installation
+**Installation**
 
 To set up the project environment:
 
@@ -55,11 +55,10 @@ To set up the project environment:
    pip install -r requirements.txt
    ```
 
-## Data
-
+**Data **
 The project uses the California Housing dataset, which includes features such as median income, housing median age, average rooms, etc. The dataset is automatically downloaded and prepared for use in the notebook.
 
-## Methodology
+** Methodology**
 
 The project follows these main steps:
 
@@ -82,7 +81,7 @@ The project follows these main steps:
 5. Final Model Evaluation:
    - Assessing the best model on the test set
 
-## Models
+** Models**
 
 The project explores several regression models:
 
@@ -92,11 +91,11 @@ The project explores several regression models:
 
 The Random Forest Regressor with optimized hyperparameters was found to perform best on this dataset.
 
-## Results
+** Results**
 
 The final model achieves a root mean squared error (RMSE) of approximately 47,730 on the test set, indicating a reasonably good fit for predicting housing prices in California.
 
-## Usage
+**Usage**
 
 To run the project:
 
@@ -124,7 +123,7 @@ To run the project:
    print(f"Root Mean Squared Error: {rmse}")
    ```
 
-## Contributing
+**Contributing**
 
 Contributions to this project are welcome. Please follow these steps:
 
@@ -135,9 +134,5 @@ Contributions to this project are welcome. Please follow these steps:
 5. Push to the branch (`git push origin feature/AmazingFeature`)
 6. Open a Pull Request
 
-## License
-
+**License**
 This project is licensed under the MIT License - see the `LICENSE` file for details.
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/30653193/2f37477b-4dbe-4dfa-83c6-abb7e406a397/End-to-end-ML-Califronia-Housing-Price-Prediction-1.ipynb 
