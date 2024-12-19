@@ -40,7 +40,7 @@ To set up the project environment:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/california-housing-prediction.git
+   git clone https://github.com/Amahistmu2026/california-housing-prediction.git
    cd california-housing-prediction
    ```
 
